@@ -1,0 +1,194 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Handlee', cursive;
+    font-size: 13pt;
+    background-color: #efefef;
+    padding: 10px;
+    margin: 0;
+}
+h1 {
+    font-size: 15pt;
+    color: #065a29;
+    text-align: center;
+    padding: 18px 0 18px 0;
+    margin: 0 0 10px 0;
+}
+h1 span {
+    border: 4px dashed #065a29;
+    padding: 10px;
+}
+p {
+    padding: 0;
+    margin: 0;
+}
+.img-circle {
+    border: 3px solid white;
+    border-radius: 50%;
+}
+.section {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+#header {
+    background-image: url("https://tricolortvmag.ru/upload/iblock/b1d/_.png");
+    background-size: cover;
+}
+#header img {
+    display: block;
+    width: 80px;
+    height: 80px;
+    margin: auto;
+}
+#header p {
+    font-size: 25pt;
+    color: #ffffff;
+    padding-top: 5px;
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+}
+.quote {
+    font-size: 12pt;
+    text-align: right;
+    margin-top: 10px;
+}
+table {
+    width: 100%;
+}
+table, th, td {
+    border: 2px solid #cecece;
+    border-collapse: collapse;
+    text-align: center;
+    table-layout: fixed;
+}
+.selected {
+    background-color: #fa8b0b;
+    font-weight: bold;
+    color: white;
+}
+#t01 {
+    width: 100%;    
+    background-color: #065a2967;
+} 
+#t02 {
+    width: 100%;
+    background-color: #fa8a0b81;
+}
+#t02 tr:nth-child(even) {
+    background-color: #eafa0b4f;
+  }
+#t02 th {
+color: rgb(255, 255, 255);
+background-color: #065a2967;
+}
+li {
+    margin-bottom: 15px;
+    font-weight: normal;
+}
+progress {
+    width: 70%;
+    height: 20px;
+    color: #fa8b0b;
+    background: #efefef;
+}
+progress::-webkit-progress-bar {
+    background: #efefef;
+}
+progress::-webkit-progress-value {
+    background: #065a29;
+} 
+progress::-moz-progress-bar {
+    color: #eafa0b;
+    background: #efefef;
+}
+hr {
+    border: 0;
+    height: 1px;
+    background: #f36f48;
+}
+form {
+    text-align: center;
+    margin-top: 0;
+}
+textarea {
+    height: 100px;
+}
+input, textarea {
+    margin-bottom: 10px;
+    font-size: 11pt;
+    padding: 15px 10px 10px;
+    border: 1px solid #eafa0b;
+    background-color: #eafa0b4f;
+    color: #fefeff;
+    border-radius: 5px;
+    width: 70%;
+    outline: none;
+}
+.contact form {
+    margin-top: 0px;
+    padding: 0px 30px;
+}
+.contact p {
+    margin: 0 0px 10px;
+    margin-left: 0px!important;
+}
+.contact input {
+   width: 100%;
+    border: none;
+    border: 1px solid #dddddd78;
+    padding: 10px;
+    border-radius: 4px;
+}
+.contact textarea#message {
+    width: 100%;
+    height: 122px;
+    border: 1px solid #dddddd78;
+    border-radius: 4px;
+    padding: 10px;
+}
+#submit {
+    text-align: center;
+    margin-top: 0;
+    color: white;
+    background: #065a29;
+    float: center;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    margin-right: 10px;
+    box-shadow: 0px 0px 4px 0px #00000087;
+    margin-top: 15px;
+}
+.face {
+    transform: scale(0.4);
+    margin: 0 auto;
+    display: block;
+    margin-top: -35px;
+    margin-bottom: -25px;
+}
+#contacts img {
+    height: 50px;
+    width: 50px;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+#contacts a {
+    text-decoration: none;
+}
+#contacts img:hover {
+    opacity: 0.8;
+}
+#contacts {
+    text-align: center;
+}
+.copyright {
+    font-size: 8pt;
+    text-align: right;
+    padding-bottom: 10px;
+    color: grey;
+}
