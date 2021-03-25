@@ -1,15 +1,16 @@
 html {
     margin: 0;
-    padding: 0;
+    padding: 20px;
 }
 body {
-    font-family: 'Handlee', cursive;
+    font-family: Georgia, serif;
     font-size: 13pt;
-    background-color: #efefef;
+    background-color: #065a29;
     padding: 10px;
     margin: 0;
 }
 h1 {
+    font-family: Verdana, sans-serif;
     font-size: 15pt;
     color: #065a29;
     text-align: center;
@@ -21,7 +22,7 @@ h1 span {
     padding: 10px;
 }
 p {
-    padding: 0;
+    padding: 20px;
     margin: 0;
 }
 .img-circle {
@@ -47,6 +48,9 @@ p {
 #header p {
     font-size: 25pt;
     color: #ffffff;
+    text-shadow: #747a81 1px 1px 0, #747a81 2px 2px 0, 
+                 #747a81 2px 2px 0, #747a81 4px 4px 0, 
+                 #747a81 4px 4px 0;
     padding-top: 5px;
     margin: 0;
     font-weight: bold;
@@ -57,8 +61,22 @@ p {
     text-align: right;
     margin-top: 10px;
 }
+a:link, a:active {
+    color:#fa8a0b81;
+    font-weight:bold
+    }
+    a:visited {
+    color:#eafa0b4f;
+    font-weight:bold
+    }
+    a:hover {
+    color:#065a2967;
+    font-weight:bold;
+    text-decoration:none
+    }
 table {
-    width: 100%;
+    width: 80%;
+    margin: auto;
 }
 table, th, td {
     border: 2px solid #cecece;
@@ -67,24 +85,26 @@ table, th, td {
     table-layout: fixed;
 }
 .selected {
-    background-color: #fa8b0b;
+    background-color: #eafa0b4f;
     font-weight: bold;
     color: white;
 }
 #t01 {
-    width: 100%;    
+    width: 80%;
+    margin: auto;    
     background-color: #065a2967;
 } 
 #t02 {
-    width: 100%;
+    width: 80%;
+    margin: auto;
     background-color: #fa8a0b81;
 }
 #t02 tr:nth-child(even) {
     background-color: #eafa0b4f;
   }
 #t02 th {
-color: rgb(255, 255, 255);
-background-color: #065a2967;
+    color: rgb(255, 255, 255);
+    background-color: #065a2967;
 }
 li {
     margin-bottom: 15px;
