@@ -77,8 +77,8 @@ a:link, a:active {
     font-weight:bold;
     text-decoration:none
     }
-table {
-    width: auto;
+table { 
+    width: 100;
     margin: auto;
     table-layout: auto;
     word-wrap: break-word;
