@@ -75,7 +75,7 @@ a:link, a:active {
     text-decoration:none
     }
 table {
-    width: 80%;
+    width: auto;
     margin: auto;
 }
 table, th, td {
@@ -90,12 +90,12 @@ table, th, td {
     color: white;
 }
 #t01 {
-    width: 80%;
+    width: auto;
     margin: auto;    
     background-color: #065a2967;
 } 
 #t02 {
-    width: 80%;
+    width: auto;
     margin: auto;
     background-color: #fa8a0b81;
 }
@@ -131,7 +131,7 @@ hr {
     height: 1px;
     background: #f36f48;
 }
-form {
+/* form {
     text-align: center;
     margin-top: 0;
 }
@@ -183,7 +183,7 @@ input, textarea {
     margin-right: 10px;
     box-shadow: 0px 0px 4px 0px #00000087;
     margin-top: 15px;
-}
+} */
 .face {
     transform: scale(0.4);
     margin: 0 auto;
@@ -193,7 +193,7 @@ input, textarea {
 }
 #contacts img {
     height: 50px;
-    width: 50px;
+    width: auto;
     margin-left: 7px;
     margin-right: 7px;
 }
@@ -212,3 +212,8 @@ input, textarea {
     padding-bottom: 10px;
     color: grey;
 }
+
+
+@media screen and (max-width: 1280px) { div.contentblock {width: 1200px;} } 
+@media screen and (max-width: 1140px) { div.contentblock {width: 1024px;} } 
+@media screen and (max-width: 992px) { div.contentblock {width: 970px;} } 
