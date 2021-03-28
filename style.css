@@ -35,7 +35,7 @@ p {
 }
 .section {
     background-color: #fff;
-    padding: 15px;
+    padding: 10px;
     margin-bottom: 10px;
     border-radius: 10px;
 }
@@ -50,7 +50,7 @@ p {
     margin: auto;
 }
 #header p {
-    font-size: 25pt;
+    font-size: 20pt;
     color: #ffffff;
     text-shadow: #747a81 1px 1px 0, #747a81 2px 2px 0, 
                  #747a81 2px 2px 0, #747a81 4px 4px 0, 
@@ -58,7 +58,6 @@ p {
     padding-top: 5px;
     margin: 0;
     font-weight: bold;
-    text-align: center;
 }
 .quote {
     font-size: 12pt;
@@ -81,11 +80,11 @@ a:link, a:active {
 table {
     width: auto;
     margin: auto;
+    table-layout: auto;
 }
 table, th, td {
     border: 2px solid #cecece;
     border-collapse: collapse;
-    text-align: center;
     table-layout: auto;
     word-wrap: break-word;
 }
@@ -99,21 +98,21 @@ table, th, td {
     margin: auto;    
     background-color: #065a2967;
     word-wrap: break-word;
+    table-layout: auto;
 } 
 #t02 {
     width: auto;
     margin: auto;
     background-color: #fa8a0b81;
     word-wrap: break-word;
+    table-layout: auto;
 }
 #t02 tr:nth-child(even) {
     background-color: #eafa0b4f;
-    word-wrap: break-word;
   }
 #t02 th {
     color: rgb(255, 255, 255);
     background-color: #065a2967;
-    word-wrap: break-word;
 }
 li {
     margin-bottom: 15px;
