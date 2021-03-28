@@ -19,6 +19,7 @@ h1 {
     text-align: center;
     padding: 18px 0 18px 0;
     margin: 0 0 10px 0;
+    word-wrap: break-word;
 }
 h1 span {
     border: 4px dashed #065a29;
@@ -97,18 +98,22 @@ table, th, td {
     width: auto;
     margin: auto;    
     background-color: #065a2967;
+    word-wrap: break-word;
 } 
 #t02 {
     width: auto;
     margin: auto;
     background-color: #fa8a0b81;
+    word-wrap: break-word;
 }
 #t02 tr:nth-child(even) {
     background-color: #eafa0b4f;
+    word-wrap: break-word;
   }
 #t02 th {
     color: rgb(255, 255, 255);
     background-color: #065a2967;
+    word-wrap: break-word;
 }
 li {
     margin-bottom: 15px;
