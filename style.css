@@ -1,6 +1,7 @@
 html {
     margin: 0;
     padding: 20px;
+    width: auto;
 }
 body {
     font-family: Georgia, serif;
