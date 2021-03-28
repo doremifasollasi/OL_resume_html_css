@@ -48,6 +48,7 @@ p {
 #header p {
     font-size: 25pt;
     color: #ffffff;
+    width: auto;
     text-shadow: #747a81 1px 1px 0, #747a81 2px 2px 0, 
                  #747a81 2px 2px 0, #747a81 4px 4px 0, 
                  #747a81 4px 4px 0;
@@ -82,7 +83,7 @@ table, th, td {
     border: 2px solid #cecece;
     border-collapse: collapse;
     text-align: center;
-    table-layout: fixed;
+    table-layout: auto;
 }
 .selected {
     background-color: #eafa0b4f;
