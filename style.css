@@ -115,6 +115,9 @@ table, th, td {
     color: rgb(255, 255, 255);
     background-color: #065a2967;
 }
+#t03 {
+    padding: auto;
+}
 li {
     margin-bottom: 15px;
     font-weight: normal;
